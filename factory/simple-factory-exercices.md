@@ -1,9 +1,5 @@
 # Exercices — Simple Factory
 
-3 implémentations distinctes. Contextes variés, pas de correction fournie.
-
----
-
 **1. Véhicules de livraison**
 Une factory crée des véhicules de livraison (`Scooter`, `Van`, `Drone`) selon le type de commande. Chaque véhicule connaît sa capacité de charge en kg et sa vitesse en km/h. Implémenter l'interface `DeliveryVehicle` et la `DeliveryVehicleFactory.create(type)`.
 
